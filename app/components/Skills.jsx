@@ -25,12 +25,12 @@ export default function Skills() {
         {
             title: "Frontend Development",
             icon: <Layout className="w-6 h-6 text-primary" />,
-            skills: ["React.js", "Next.js", "Tailwind CSS", "TypeScript", "Redux"]
+            skills: ["React.js", "Next.js", "Tailwind CSS", "TypeScript", "Redux", "Blade"]
         },
         {
             title: "Backend & Database",
             icon: <Server className="w-6 h-6 text-indigo-400" />,
-            skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Firebase", "Prisma"]
+            skills: ["Node.js", "Express", "Php", "Laravel", "PostgreSQL", "MongoDB", "Firebase", "Prisma"]
         },
         {
             title: "AI Tools",
