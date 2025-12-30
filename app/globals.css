@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand Colors */
+  --primary-blue: #2563EB;
+  --accent-green: #22C55E;
+  
+  /* Text Colors */
+  --text-heading: #F8FAFC;
+  --text-body: #CBD5E1;
+  
+  /* Backgrounds */
+  --bg-start: #020617;
+  --bg-end: #0B1220;
+}
+
+@theme {
+  --color-primary: var(--primary-blue);
+  --color-accent: var(--accent-green);
+  --color-heading: var(--text-heading);
+  --color-body-text: var(--text-body);
+  
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: linear-gradient(to bottom, var(--bg-start), var(--bg-end));
+  color: var(--text-body);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide Default Cursor for Custom Cursor */
+@media (pointer: fine) {
+  body, a, button, input, textarea, select {
+    cursor: none !important;
+  }
+}
+
+/* Custom Scrollbar for Premium Feel */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-start);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-blue);
+  border-radius: 5px;
+  border: 2px solid var(--bg-start);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-green);
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.glass-nav {
+  background: rgba(2, 6, 23, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
