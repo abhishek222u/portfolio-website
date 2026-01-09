@@ -25,7 +25,7 @@ export default function Skills() {
         {
             title: "Frontend Development",
             icon: <Layout className="w-6 h-6 text-primary" />,
-            skills: ["React.js", "Next.js", "Tailwind CSS", "TypeScript", "Redux", "Blade"]
+            skills: ["React.js", "Next.js", "Laravel", "Tailwind CSS", "TypeScript", "Redux", "Blade",]
         },
         {
             title: "Backend & Database",

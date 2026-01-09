@@ -48,6 +48,27 @@ export default function Projects() {
       links: { demo: "https://allgovjobs.com/", code: "#" },
       color: "from-green-500 to-emerald-500"
     },
+    {
+      title: "Top Tipper",
+      description: "TopTipper is a digital platform that allows service workers to accept cashless tips via QR codes, ensuring they receive gratuity even when customers do not have cash on hand.",
+      tags: ["React js", "Node js", "Tailwind css", "postgress sql"],
+      links: { demo: "https://toptipper.co", code: "#" },
+      color: "from-green-500 to-emerald-500"
+    },
+    {
+      title: "Smart Nest Shopify App",
+      description: "Smart Nest (likely referring to Smart Collection) is a Shopify app that allows merchants to create nested sub-collections (categories within categories) and organized menus, making it easier for customers to browse and find products on the store.",
+      tags: ["Remix js", "Node js", "Polaris", "Shopify"],
+      links: { demo: "", code: "#" },
+      color: "from-green-500 to-emerald-500"
+    },
+    {
+      title: "Telecey",
+      description: "Telecey is a community-based platform that helps users find and compare the best telecom services and mobile plans by gathering real-time, location-based reviews and feedback from other consumers.",
+      tags: ["Laravel", "Sql", "Css",],
+      links: { demo: "https://telecey.com/", code: "#" },
+      color: "from-green-500 to-emerald-500"
+    },
   ];
 
   return (
